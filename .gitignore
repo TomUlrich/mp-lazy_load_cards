@@ -1,0 +1,23 @@
+#|hl|  ignore ALL files in any DIRECTORY named RAW
+**/RAW
+**/.vscode
+**/docs
+
+#|hl|  ignore ALL .md files
+*.md
+
+#|hl| Ignore a FILE called "credentials" in the current directory
+# /credentials
+
+#|hl|  TRACK "README.md" even if all other .md files are ignored
+!README.md
+
+############################################
+
+#|hl|  ignore all txt files in the "logs" folder, but not "logs/apache/log.txt"
+# logs/*.txt
+
+#|hl|  ignore all ".txt" files in the "logs" directory and any of its subdirectories
+# logs/**/*.txt
+
+
